@@ -1,5 +1,7 @@
+
 import 'package:dio/dio.dart';
-import '../models/post_model.dart';
+
+import 'post_model.dart';
 
 class ApiService {
   final Dio _dio = Dio();

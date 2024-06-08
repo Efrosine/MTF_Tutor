@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'services/api_service.dart';
-import 'models/post_model.dart';
+import 'package:mtf_tutor/cth_tugas/cth_api/api_service.dart';
+import 'package:mtf_tutor/cth_tugas/cth_api/post_model.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -96,3 +97,4 @@ void main() {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ),
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 );
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   }
+                          }
