@@ -23,6 +23,48 @@ class ListPage extends StatelessWidget {
           image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
           description:
               'Ini adalah deskripsi makanan ketiga, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa'),
+      FoodModel(
+        name: 'Makanan keempat',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan keempat, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan kelima',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan kelima, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan keenam',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan keenam, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan ketujuh',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan ketujuh, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan kedelapan',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan kedelapan, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan kesembilan',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan kesembilan, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
+      FoodModel(
+        name: 'Makanan kesepuluh',
+        image: 'https://cdn.timesmedia.co.id/images/2020/07/31/gulai-kambing-sajan-Idul-Adha-khas-Aceh.jpg',
+        description:
+            'Ini adalah deskripsi makanan kesepuluh, mungkin akan sedikit panjang tapi aku ga tau lagi harus nulis apa',
+      ),
     ];
 
     return Scaffold(
