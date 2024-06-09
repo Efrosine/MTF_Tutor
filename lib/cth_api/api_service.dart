@@ -24,6 +24,7 @@ class ApiService {
   Future<Post> createPost(Post postData) async {
     try {
       final response = await _dio.post('/posts', data: postData.toJson());
+      print('Post created: ${response.data}');
       return Post.fromJson(response.data);
     } catch (e) {
       print('Error creating post: $e');

@@ -58,29 +58,19 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      floatingActionButton: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          FloatingActionButton(
-            onPressed: _fetchPosts,
-            child: Icon(Icons.refresh),
-          ),
-          SizedBox(height: 16),
-          FloatingActionButton(
-            onPressed: () async {
-              final createdPost = await apiService.createPost(Post(
-                id: 101,
-                userId: 1,
-                title: 'foo',
-                body: 'bar',
-              ));
-              setState(() {
-                newPost = createdPost;
-              });
-            },
-            child: Icon(Icons.add),
-          ),
-        ],
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          final createdPost = await apiService.createPost(Post(
+            id: 101,
+            userId: 1,
+            title: 'foo',
+            body: 'bars',
+          ));
+          setState(() {
+            newPost = createdPost;
+          });
+        },
+        child: Icon(Icons.add),
       ),
     );
   }
